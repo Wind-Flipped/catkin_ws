@@ -1,0 +1,24 @@
+ssh liuyq@10.134.153.63
+beihang%1234
+scp -r D:\science_class\MTGNN-master\MTGNN-master\data\guangxi_test liuyq@10.134.153.63:/home/liuyq/mtgnn/data
+
+scp -r D:\算法\coding\text_classfication_NLP liuyq@10.134.153.63:/home/liuyq/text_classfication
+
+conda init
+conda activate NLP
+conda install -n NLP
+
+
+30u5z-%UK
+
+sudo apt-get install ros-melodic-joy
+sudo apt-get install ros-melodic-hector-mapping
+sudo apt-get install ros-melodic-gmapping 
+sudo apt-get install ros-melodic-map-server
+sudo apt-get install ros-melodic-navigation
+sudo apt-get install ros-melodic-move-base
+sudo apt-get install ros-melodic-amcl 
+sudo apt-get install ros-melodic-cv-bridge
+sudo apt-get install ros-melodic-audio-common
+sudo apt-get install libasound2
+sudo apt-get install ros-melodic-sound-play
